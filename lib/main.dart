@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutteranimations/Animation_Components/AnimatedToggle.dart';
 import 'Animation_Components/RadialMenu.dart';
 
 void main() => runApp(MyApp());
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'FlutterBase',
         home: Scaffold(
-            body: SizedBox.expand(child: RadialMenu())
+            body: Center(child: AnimatedToggle())
         )
     );
   }
